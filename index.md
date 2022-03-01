@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Practicals
 
-You can use the [editor on GitHub](https://github.com/gladwinK/AR-VR/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### [1.AR app using AR template.](./Practicals/1_AR_Template/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![p1](./Practicals/images/p1.jpeg)
 
-### Markdown
+### [2.AR app using Single View App.](./Practicals/2_AR-single-view-app)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![p2](./Practicals/images/p2.jpeg)
 
-```markdown
-Syntax highlighted code block
+### [3.AR app with a node.](./Practicals/3_AR-node)
 
-# Header 1
-## Header 2
-### Header 3
+![p3](./Practicals/images/p3.jpeg)
 
-- Bulleted
-- List
+### [4.World tracking app with add node and reset node buttons.](./Practicals/4_World_Tracking_with_add_node_and_reset_node_buttons)
 
-1. Numbered
-2. List
+![p4](./Practicals/images/p4.png)
 
-**Bold** and _Italic_ and `Code` text
+### [5.World tracking app with sliders to place the node in the AR-world.](./Practicals/5_WorldTracking-With-Sliders_to_place_the_node_in_the_AR-world)
 
-[Link](url) and ![Image](src)
-```
+![p5](./Practicals/images/p5.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Assignments
 
-### Jekyll Themes
+### [1.SceneKit app to add simple 3-d object](./Assignments/1_SceneKit-Simple-3d-object)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gladwinK/AR-VR/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+![a1](./Assignments/images/a1.png)
 
-### Support or Contact
+### [2.Single view app object in current view of camera](./Assignments/2_Single_view_app_object_in_current_view_of_camera)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![a1](./Assignments/images/a2.png)
+
+### [3.AR app to add sphere in position related to the current world origin](./Assignments/3_AR_node-sphere)
+
+![a1](./Assignments/images/a3.jpeg)
