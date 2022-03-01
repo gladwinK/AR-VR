@@ -1,6 +1,6 @@
 **Practicals**
 
-[1.AR app using AR template.]()
+[1.AR app using AR template.](./Practicals/1_AR_Template/)
 
 [2.AR app using Single View App.](./Practicals/2_AR-single-view-app)
 
