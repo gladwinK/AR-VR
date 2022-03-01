@@ -12,7 +12,7 @@
 
 **Assignments**
 
-[1.SceneKit app to add simple 3-d object]('./Assignments/1_SceneKit-Simple-3d-object)
+[1.SceneKit app to add simple 3-d object](./Assignments/1_SceneKit-Simple-3d-object)
 
 [2.Single view app object in current view of camera](./Assignments/2_Single_view_app_object_in_current_view_of_camera)
 
