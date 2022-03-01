@@ -1,3 +1,4 @@
 **Assignment - 2**
-[image](../images/a2.png)
+
+![image](../images/a2.png)
 
