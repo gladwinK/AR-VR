@@ -1,4 +1,4 @@
-**Practicals**
+# Practicals
 
 [1.AR app using AR template.](./Practicals/1_AR_Template/)
 
@@ -10,7 +10,7 @@
 
 [5.World tracking app with sliders to place the node in the AR-world.](./Practicals/5_WorldTracking-With-Sliders_to_place_the_node_in_the_AR-world)
 
-**Assignments**
+# Assignments
 
 [1.SceneKit app to add simple 3-d object](./Assignments/1_SceneKit-Simple-3d-object)
 
