@@ -2,7 +2,7 @@
 
 ### [1.AR app using AR template.](./Practicals/1_AR_Template/)
 
-![p1](./Practicals/images/p1.jpeg)
+![p1](./Practicals/images/p1.png)
 
 ### [2.AR app using Single View App.](./Practicals/2_AR-single-view-app)
 
@@ -19,6 +19,10 @@
 ### [5.World tracking app with sliders to place the node in the AR-world.](./Practicals/5_WorldTracking-With-Sliders_to_place_the_node_in_the_AR-world)
 
 ![p5](./Practicals/images/p5.png)
+
+### [6.AR app to apply texture and transparency.](./Practicals/6_AR_node_Image/)
+
+![p6](./Practicals/images/p6.png)
 
 # Assignments
 
