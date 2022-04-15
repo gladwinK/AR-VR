@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DrawingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1f-Lh-pr4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </arscnView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qBA-AB-PFi">
+                                <rect key="frame" x="84" y="517" width="51" height="31"/>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMJ-w1-o9N">
+                                <rect key="frame" x="175" y="485" width="112" height="63"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="RESET">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="tintColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" red="0.99215686319999996" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="B1f-Lh-pr4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Hb-3g-Vck"/>
+                            <constraint firstItem="qBA-AB-PFi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="517" id="A9J-XN-alg"/>
+                            <constraint firstItem="qBA-AB-PFi" firstAttribute="bottom" secondItem="ZMJ-w1-o9N" secondAttribute="bottom" id="G0b-VW-UwO"/>
+                            <constraint firstItem="ZMJ-w1-o9N" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="485" id="HqC-vT-Jw6"/>
+                            <constraint firstItem="B1f-Lh-pr4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ieb-8X-G2L"/>
+                            <constraint firstItem="ZMJ-w1-o9N" firstAttribute="leading" secondItem="qBA-AB-PFi" secondAttribute="trailing" constant="42" id="OUQ-pI-cFS"/>
+                            <constraint firstItem="B1f-Lh-pr4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pne-29-Bvt"/>
+                            <constraint firstItem="B1f-Lh-pr4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="QRc-oE-R8b"/>
+                            <constraint firstItem="qBA-AB-PFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="qNp-ET-lR8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZMJ-w1-o9N" secondAttribute="trailing" constant="33" id="xWi-zH-t1E"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clearButton" destination="ZMJ-w1-o9N" id="wKH-hn-FxS"/>
+                        <outlet property="sceneView" destination="B1f-Lh-pr4" id="rc2-Nm-WZo"/>
+                        <outlet property="switchDraw" destination="qBA-AB-PFi" id="Fgi-uD-911"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18.75" y="92.957746478873247"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
