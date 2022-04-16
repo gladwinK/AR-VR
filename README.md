@@ -24,6 +24,34 @@
 
 ![p6](./Practicals/images/p6.png)
 
+### [7.AR Text Node](./Practicals/ARTextApp/)
+
+![p7](./Practicals/images/ARText.png)
+
+### [8. Node Relative Position](./Practicals/NodeRelativePosition/)
+
+![p8](./Practicals/images/NodeRelativePOsition.jpg)
+
+### [9. Drawing wrt to origin](./Practicals/DrawingApp/)
+
+![p9](./Practicals/images/AR-Drawing.gif)
+
+### [10. Rotation of Objects using sliders](./Practicals/RotationApp/)
+
+![p10](./Practicals/images/AR-Rotation.gif)
+
+### [11. Pinch Gesture](./Practicals/PinchGesture/)
+
+![p11](./Practicals/images/AR-PinchGesture.gif)
+
+### [12. Rotation Gesture](./Practicals/RotationGesture/)
+
+![p12](./Practicals/images/RotationGesture.gif)
+
+### [13. Relative Object Rotation](./Practicals/RelativeObjectRotation/)
+
+![p13](./Practicals/images/RelativeRotation.gif)
+
 # Assignments
 
 ### [1.SceneKit app to add simple 3-d object](./Assignments/1_SceneKit-Simple-3d-object)
